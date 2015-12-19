@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Hamit",
-  "description": "This extension adds gifs to ham.af",
+  "name": "hamit",
+  "description": "This extension adds gifs to ham.life",
   "version": "1.0",
 
   "browser_action": {
