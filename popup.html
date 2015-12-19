@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pork</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        width: 150px;
+        height: 150px;
+        background-color: #F5F5F5;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+      #add-gif {
+        width: 130px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 18pt;
+        background-color: #ADD8E6;
+      }
+      #message {
+        height: 40px;
+        padding-top: 8px;
+      }
+    </style>
+  <script src="jquery-2.1.4.min.js">></script>
+  <script src="popup.js">></script>
+  </head>
+  <body>
+    <h3>Hamit</h3>
+    <button id="add-gif">Add gif</button>
+    <div id="message"></div> 
+  </body>
+</html>
+
