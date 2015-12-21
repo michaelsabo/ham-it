@@ -9,7 +9,7 @@ $(function() {
 
   $( "#add-gif" ).click(function() {
     if (/imgur/.test(url)) {
-        var imgurId = /.*com\/.*\/(\w*)(\.)?/.exec(url);
+        var imgurId = /.*com\/?.*\/(\w*)(\.)?/.exec(url);
 
       if (imgurId == null) {
         console.log("returning");
